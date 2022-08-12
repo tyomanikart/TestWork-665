@@ -1,0 +1,16 @@
+#product-create-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#product-create-form label {
+    width: 100%;
+}
+
+#product-create-form input {
+    width: 100%;
+}
+
+#product-create-form input[type="submit"] {
+    margin-top: 20px;
+}

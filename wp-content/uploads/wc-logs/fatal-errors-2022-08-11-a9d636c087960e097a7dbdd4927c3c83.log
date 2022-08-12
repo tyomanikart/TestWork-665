@@ -1,0 +1,57 @@
+2022-08-11T08:50:14+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\inc\custom-fields.php:33
+Stack trace:
+#0 E:\OpenServer\domains\nimona.loc\wp-admin\includes\template.php(1401): extra_fields_box_func()
+#1 E:\OpenServer\domains\nimona.loc\wp-admin\edit-form-advanced.php(681): do_meta_boxes()
+#2 E:\OpenServer\domains\nimona.loc\wp-admin\post.php(206): require('E:\\OpenServer\\d...')
+#3 {main}
+  thrown в E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\inc\custom-fields.php на строке 33
+
+2022-08-11T08:52:20+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\inc\custom-fields.php:36
+Stack trace:
+#0 E:\OpenServer\domains\nimona.loc\wp-admin\includes\template.php(1401): extra_fields_box_func()
+#1 E:\OpenServer\domains\nimona.loc\wp-admin\edit-form-advanced.php(681): do_meta_boxes()
+#2 E:\OpenServer\domains\nimona.loc\wp-admin\post.php(206): require('E:\\OpenServer\\d...')
+#3 {main}
+  thrown в E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\inc\custom-fields.php на строке 36
+
+2022-08-11T13:26:11+00:00 CRITICAL Uncaught Error: Call to undefined function upload_user_file() in E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\product-create.php:35
+Stack trace:
+#0 E:\OpenServer\domains\nimona.loc\wp-includes\template-loader.php(106): include()
+#1 E:\OpenServer\domains\nimona.loc\wp-blog-header.php(19): require_once('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\nimona.loc\index.php(17): require('E:\\OpenServer\\d...')
+#3 {main}
+  thrown в E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\product-create.php на строке 35
+
+2022-08-11T13:28:04+00:00 CRITICAL Uncaught Error: Call to undefined function upload_user_file() in E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\product-create.php:35
+Stack trace:
+#0 E:\OpenServer\domains\nimona.loc\wp-includes\template-loader.php(106): include()
+#1 E:\OpenServer\domains\nimona.loc\wp-blog-header.php(19): require_once('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\nimona.loc\index.php(17): require('E:\\OpenServer\\d...')
+#3 {main}
+  thrown в E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\product-create.php на строке 35
+
+2022-08-11T13:29:31+00:00 CRITICAL Uncaught Error: Call to undefined function upload_user_file() in E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\product-create.php:35
+Stack trace:
+#0 E:\OpenServer\domains\nimona.loc\wp-includes\template-loader.php(106): include()
+#1 E:\OpenServer\domains\nimona.loc\wp-blog-header.php(19): require_once('E:\\OpenServer\\d...')
+#2 E:\OpenServer\domains\nimona.loc\index.php(17): require('E:\\OpenServer\\d...')
+#3 {main}
+  thrown в E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\product-create.php на строке 35
+
+2022-08-11T17:08:57+00:00 CRITICAL Uncaught Error: Call to undefined function dd() in E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\inc\custom-fields.php:182
+Stack trace:
+#0 E:\OpenServer\domains\nimona.loc\wp-includes\class-wp-hook.php(307): show_custom_fields()
+#1 E:\OpenServer\domains\nimona.loc\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 E:\OpenServer\domains\nimona.loc\wp-includes\plugin.php(476): WP_Hook->do_action()
+#3 E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\woocommerce\content-single-product.php(46): do_action()
+#4 E:\OpenServer\domains\nimona.loc\wp-includes\template.php(772): require('E:\\OpenServer\\d...')
+#5 E:\OpenServer\domains\nimona.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#6 E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\woocommerce\single-product.php(37): wc_get_template_part()
+#7 E:\OpenServer\domains\nimona.loc\wp-includes\template-loader.php(106): include('E:\\OpenServer\\d...')
+#8 E:\OpenServer\domains\nimona.loc\wp-blog-header.php(19): require_once('E:\\OpenServer\\d...')
+#9 E:\OpenServer\domains\nimona.loc\index.php(17): require('E:\\OpenServer\\d...')
+#10 {main}
+  thrown в E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\inc\custom-fields.php на строке 182
+
+2022-08-11T17:11:02+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" в E:\OpenServer\domains\nimona.loc\wp-content\themes\storefront\inc\custom-fields.php на строке 183
+
